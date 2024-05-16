@@ -82,15 +82,11 @@ if selected == "About":
             st.markdown(
                 """
                 <ul style="line-height: 1.5;">
-                    <li>Responsible for building and maintaining data pipelines across different sectors.</li>
-                    <li>Partially responsible for designing and building analytical data warehouse from scratch by collecting data from multiple sources.</li>
-                    <li>Create and optimize downstream and upstream analytical data pipelines for multiple business reports.</li>
-                    <li>Responsible for scheduling, orchestrating, and optimizing hundreds of multiple data pipelines.</li>
-                    <li>Responsible for creating and updating data catalog, SOP, and ETL version control documentation.</li>
-                    <li>Lead a team of 3 BI developers to re-design data architecture to ensure the single source of truth in multiple reports.</li>
-                    <li>Enforce Power BI Developers to follow the standardized reporting framework.</li>
-                    <li>Built Power BI dashboards and reports for certain departments.</li>
-                    <li>Analyze and optimize Power BI data sources for the entire organization resulting in reducing significant data processing time.</li>
+                    <li>Deliver regular business insight reports with data-driven recommendations to senior management.</li>
+                    <li>Develop and maintain interactive dashboards using Power BI, SQL, and Python to track KPIs and transactions.</li>
+                    <li>Manage incentives and commissions for KBZpay Agents and Merchants, ensuring accuracy and timely payouts.</li>
+                    <li>Conduct ad-hoc data analysis, collaborate across teams, and participate in projects to support business goals.</li>
+                    <li>Implement efficient data ecosystems, automate reporting processes, and facilitate collaboration with external data teams for better integration and accuracy.</li>
                 </ul>
                 """, unsafe_allow_html=True
             )
@@ -107,18 +103,12 @@ if selected == "About":
             st.markdown(
                 """
                 <ul>
-                    <li>Deliver weekly and monthly business insight reports to senior management, providing data-driven recommendations.</li>
-                    <li>Create and maintain interactive Power BI, SQL, and Python dashboards to track KPIs in daily transactions.</li>
-                    <li>Calculate and monitor incentives and commissions for KBZpay Agents and Merchants, ensuring accurate settlements and timely payouts.</li>
-                    <li>Perform ad-hoc data analysis for various teams and departments, supporting business initiatives.</li>
-                    <li>Collaborate with cross-functional teams to analyze and interpret complex datasets.</li>
-                    <li>Manage databases, conduct SQL querying, and manipulate data for analysis and reporting.</li>
-                    <li>Participate in project planning and execution to achieve objectives.</li>
-                    <li>Designed and implemented a highly efficient local MS SQL data ecosystem, resulting in a significant reduction in team workload.</li>
-                    <li>Successfully automated daily and weekly reports by creating robust data pipelines with Python and SQL, leading to enhanced operational efficiency.</li>
-                    <li>Played a pivotal role in conducting crucial ad-hoc analytic projects to support internal decision-making, including a comprehensive feasibility study for the deployment of a new feature in the KBZPay app.</li>
-                    <li>Fostered effective collaboration with an external data engineering team to ensure seamless data alignment across different departments, promoting better data integration and accuracy.</li>
-                </ul>
+                    <li>Deliver business insight reports with data-driven recommendations to senior management.</li>
+                    <li>Create and maintain interactive dashboards to track transaction KPIs.</li>
+                    <li>Calculate and monitor incentives and commissions for KBZpay Agents and Merchants.</li>
+                    <li>Perform ad-hoc data analysis to support various business initiatives.</li>
+                    <li>Collaborate with cross-functional teams to analyze complex datasets.</li>
+                                    </ul>
                 """, unsafe_allow_html=True
             )
             st.markdown("<b>Tech Stack : SQL, Python, Power BI, SSIS, Excel</b>", unsafe_allow_html=True)
