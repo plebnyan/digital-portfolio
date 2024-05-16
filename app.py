@@ -26,8 +26,37 @@ st.markdown(
 )
 
 st.write("____")
-
-
+st.markdown("Reach out to me via the following channels: ")
+with st.container():
+    linkedIn,g_hub,email,ph_no,i=st.columns([1,1,1,1,8])
+    with linkedIn:
+        st.markdown(
+    """<a href="https://www.linkedin.com/in/nyan-lynn-tun-a6aa2a1aa/">
+    <img src="data:image/png;base64,{}" width="50">
+    </a>""".format(
+        base64.b64encode(open("animations/linkedin.1024x1024-2.png", "rb").read()).decode()
+    ),
+    unsafe_allow_html=True,
+)
+    with g_hub:
+        st.markdown(
+    """<a href="https://github.com/plebnyan">
+    <img src="data:image/png;base64,{}" width="50">
+    </a>""".format(
+        base64.b64encode(open("animations/github-6980894_1280.webp", "rb").read()).decode()
+    ),
+    unsafe_allow_html=True,
+)
+    with email:
+        st.markdown(
+    """<a href="mailto:nlt1166@outlook.com">
+    <img src="data:image/png;base64,{}" width="50">
+    </a>""".format(
+        base64.b64encode(open("animations/email-2.png", "rb").read()).decode()
+    ),
+    unsafe_allow_html=True,
+)
+        
 st.write("____")
 
 with st.container():
@@ -45,7 +74,7 @@ if selected == "About":
             st.write("### Work Experiences")
             st.markdown(
                 """
-                <h5>Business Intelligence Developer @ City Holdings Limited | Yangon</h5>
+                <h5>Business Intelligence Developer <br> City Holdings Limited | Yangon</h5>
                 """, unsafe_allow_html=True
             )
             st.markdown("<b> From Sep-2023 - Present </b>", unsafe_allow_html=True)
@@ -70,7 +99,7 @@ if selected == "About":
             st.write("-------------")
             st.markdown(
                 """
-                <h5>Data Analyst @ KBZ Bank (KBZ Pay) | Yangon</h5>
+                <h5>Data Analyst <br>  KBZ Bank (KBZ Pay) | Yangon</h5>
                 """, unsafe_allow_html=True
             )
             st.markdown("<b>From Feb-2023 - Sep-2023</b>", unsafe_allow_html=True)
@@ -97,7 +126,7 @@ if selected == "About":
             st.write("-------------")
             st.markdown(
                 """
-                <h5>Data Analyst @ Million Mart Group | Yangon</h5>
+                <h5>Data Analyst <br> Million Mart Group | Yangon</h5>
                 """, unsafe_allow_html=True
             )
             st.markdown("<b>From May-2021 to Jan-2023</b>", unsafe_allow_html=True)
