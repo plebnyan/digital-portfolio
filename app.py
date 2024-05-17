@@ -5,7 +5,7 @@ import base64
 
 st.set_page_config(layout='wide',
                    page_title='Nyan Lynn Tun | Data Engineer',
-                   page_icon=':coffee:')
+                   page_icon=':male-technologist:')
 
 def local_css(file_name):
     with open(file_name) as f:
