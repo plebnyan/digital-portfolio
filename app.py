@@ -62,12 +62,12 @@ st.write("____")
 with st.container():
     selected = option_menu(
         menu_title=None,
-        options=['About', 'Projects', 'Contact'],
+        options=['About Me', 'Projects', 'Contact'],
         icons=['person', 'code-slash', 'chat-left-text-fill'],
         orientation='horizontal'
     )
 
-if selected == "About":
+if selected == "About Me":
     with st.container():
         col1, col2 = st.columns([3, 1])
         with col1:
@@ -136,7 +136,25 @@ if selected == "About":
             st.markdown("<b>Tech Stack : SQL, Excel, Python, SAP</b>", unsafe_allow_html=True)
 
 if selected == "Projects":
-    st.write("Projects will be here")
+    st.write("---")
+    st.markdown("""
+                <h3>Building a webscraping Pipeline</h3>
+                """, unsafe_allow_html=True)
+    st.markdown("""
+<h5>Project Description</h5>
+<p>I scrapped data from https://www.jobnet.com.mm/ using Python and embedded in Apache Airflow pipeline and stored the output csv files in AWS S3 Bucket then insert it into a Postgre DB to save historical data and serve as a data source for an analytic dashboard.<p>
+<h5>Tools & AWS Services Used in this Project </h5> 
+<p>For scripting language, I used python to utalize BS4, pandas and request libraries to extract publically available data from the jobnet.com. </p>
+""",unsafe_allow_html=True)
+    st.markdown(""" 
+<h5><a href="https://github.com/plebnyan/job-net-pipeline-portfolio">Visit Github Repo</a></h5>
+
+""",unsafe_allow_html=True)
+st.write("---")
+st.markdown("""
+                <h3>Japan Visa Application Analysis Pipeline with Spark on Azure</h3>
+                """, unsafe_allow_html=True)
+
 
 if selected == "Contact":
     st.write("Contact info will be here")
