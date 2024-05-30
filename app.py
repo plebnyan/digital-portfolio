@@ -150,11 +150,21 @@ if selected == "Projects":
 <h5><a href="https://github.com/plebnyan/job-net-pipeline-portfolio">Visit Github Repo</a></h5>
 
 """,unsafe_allow_html=True)
-st.write("---")
-st.markdown("""
+    st.write("---")
+    st.markdown("""
                 <h3>Japan Visa Application Analysis Pipeline with Spark on Azure</h3>
                 """, unsafe_allow_html=True)
+    
+    st.markdown("""
+<h5>Project Description</h5>
+<p>The data set used in this project is Kaggle Japanese Visa Application. I processed the flat file (csv) on the Spark Cluster which is hosted on Azure VM.
+    The data cleaning include changing countrie names to international standard, cleaning null values using pySpark. Then create visualization using plotly to share the insight extracted from the dataset.<p>
+<h5>Tech stack used in this project</h5> 
+<p>pySpark, python, Azure VM, Docker </p>
+""",unsafe_allow_html=True)
+    st.markdown(""" 
+<h5><a href="https://github.com/plebnyan/azure-spark-cluster-de-project/tree/master">Visit Github Repo</a></h5>
 
-
+""",unsafe_allow_html=True)
 if selected == "Contact":
     st.write("Contact info will be here")
